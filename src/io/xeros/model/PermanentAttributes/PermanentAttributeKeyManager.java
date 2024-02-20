@@ -10,7 +10,6 @@ import java.lang.reflect.Modifier;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-import java.util.concurrent.TimeUnit;
 
 /**
  * Created by Jason MacKeigan on 2018-06-08 at 10:18 AM
@@ -25,7 +24,10 @@ public class PermanentAttributeKeyManager {
         if (!keys.isEmpty()) {
             throw new IllegalStateException("Cannot populate keys when it is already populated.");
         }
-        Configuration configuration = new ConfigurationBuilder().useParallelExecutor().addScanners(new FieldAnnotationsScanner()).forPackages("io");
+        Configuration configuration = new ConfigurationBuilder()
+                .setParallel(true)
+                .addScanners(new FieldAnnotationsScanner())
+                .forPackages("io");
 
         Reflections reflections = new Reflections(configuration);
 

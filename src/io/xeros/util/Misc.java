@@ -1,5 +1,18 @@
 package io.xeros.util;
 
+import com.google.common.base.Preconditions;
+import com.google.common.collect.Lists;
+import com.google.common.reflect.ClassPath;
+import com.google.common.reflect.ClassPath.ClassInfo;
+import com.google.gson.Gson;
+import io.netty.buffer.ByteBuf;
+import io.xeros.model.entity.player.Player;
+import io.xeros.model.items.GameItem;
+import org.apache.commons.lang3.RandomUtils;
+import org.apache.commons.lang3.Range;
+import org.apache.commons.lang3.math.NumberUtils;
+import org.apache.commons.lang3.text.WordUtils;
+
 import java.io.File;
 import java.io.IOException;
 import java.math.BigInteger;
@@ -20,19 +33,6 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
-
-import com.google.common.base.Preconditions;
-import com.google.common.collect.Lists;
-import com.google.common.reflect.ClassPath;
-import com.google.common.reflect.ClassPath.ClassInfo;
-import com.google.gson.Gson;
-import io.netty.buffer.ByteBuf;
-import io.xeros.model.entity.player.Player;
-import io.xeros.model.items.GameItem;
-import org.apache.commons.lang3.RandomUtils;
-import org.apache.commons.lang3.Range;
-import org.apache.commons.lang3.math.NumberUtils;
-import org.apache.commons.lang3.text.WordUtils;
 
 public class Misc {
 
@@ -82,7 +82,7 @@ public class Misc {
 	}
 
 	public static String getPriceFormat(int price) {
-		Double amount = new Double(price);
+		double amount = price;
 		boolean useFormat = true;
 		String format = "";
 		String synx = "";
