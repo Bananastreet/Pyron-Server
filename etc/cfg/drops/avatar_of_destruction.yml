@@ -1,0 +1,68 @@
+---
+npc_id: 10532
+constant:
+  accessibility: 0
+  items:
+    - name: "coins"
+      minimum: 100000
+      maximum: 150000
+common:
+  accessibility: 1
+  items:
+    - item: 1516
+      minimum: 5
+      maximum: 10
+    - item: 1514
+      minimum: 5
+      maximum: 10
+    - item: 2362
+      minimum: 5
+      maximum: 10
+    - item: 2364
+      minimum: 5
+      maximum: 10
+    - item: 454
+      minimum: 50
+      maximum: 100
+uncommon:
+  accessibility: 1
+  items:
+    - item: 4088
+      minimum: 1
+      maximum: 2
+    - item: 4586
+      minimum: 1
+      maximum: 2
+    - item: 560
+      minimum: 150
+      maximum: 300
+    - item: 561
+      minimum: 150
+      maximum: 300
+rare:
+  accessibility: 150
+  items:
+    - item: 7629
+      minimum: 1
+      maximum: 1
+    - item: 26706
+      minimum: 1
+      maximum: 1
+very_rare:
+  accessibility: 400
+  items:
+    - item: 22945
+      minimum: 1
+      maximum: 1
+    - item: 22947
+      minimum: 1
+      maximum: 1
+    - item: 22943
+      minimum: 1
+      maximum: 1
+    - item: 22941
+      minimum: 1
+      maximum: 1
+    - item: 30017
+      minimum: 1
+      maximum: 1

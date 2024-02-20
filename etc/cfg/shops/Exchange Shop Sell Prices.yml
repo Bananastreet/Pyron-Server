@@ -1,0 +1,150 @@
+---
+id: 61
+name: "Enter how much the shop should buy items from players for below"
+items:
+  - id: 23842
+    price: 75
+  - id: 23845
+    price: 150
+  - id: 23848
+    price: 150
+  - id: 23971
+    price: 30
+  - id: 23975
+    price: 50
+  - id: 23979
+    price: 50
+  - id: 25859
+    price: 100
+  - id: 23956
+    price: 50
+  - id: 22323
+    price: 100
+  - id: 22324
+    price: 100
+  - id: 11907
+    price: 30
+  - id: 19544
+    price: 25
+  - id: 19550
+    price: 25
+  - id: 19547
+    price: 25
+  - id: 19553
+    price: 25
+  - id: 12924
+    price: 50
+  - id: 13237
+    price: 35
+  - id: 13235
+    price: 35
+  - id: 13239
+    price: 35
+  - id: 11834
+    price: 25
+  - id: 11832
+    price: 25
+  - id: 11283
+    price: 15
+  - id: 21079
+    price: 30
+  - id: 21034
+    price: 30
+  - id: 11802
+    price: 35
+  - id: 11785
+    price: 35
+  - id: 20997
+    price: 250
+  - id: 22325
+    price: 250
+  - id: 21021
+    price: 65
+  - id: 21024
+    price: 65
+  - id: 21018
+    price: 25
+  - id: 21003
+    price: 30
+  - id: 21015
+    price: 40
+  - id: 21012
+    price: 30
+  - id: 20784
+    price: 30
+  - id: 691
+    price: 100
+  - id: 692
+    price: 200
+  - id: 693
+    price: 300
+  - id: 696
+    price: 400
+  - id: 13576
+    price: 75
+  - id: 12902
+    price: 35
+  - id: 21000
+    price: 25
+  - id: 21006
+    price: 25
+  - name: "dragon pickaxe"
+    price: 10
+  - id: 22552
+    price: 50
+  - id: 22542
+    price: 75
+  - id: 22547
+    price: 75
+  - id: 21817
+    price: 1
+  - id: 24777
+    price: 50
+  - id: 24780
+    price: 55
+  - id: 21633
+    price: 25
+  - id: 12817
+    price: 125
+  - id: 12825
+    price: 80
+  - id: 12821
+    price: 50
+  - name: "armadyl helmet"
+    price: 25
+  - name: "armadyl chestplate"
+    price: 25
+  - name: "armadyl chainskirt"
+    price: 25
+  - name: "sanguinesti staff"
+    price: 100
+  - id: 22326
+    price: 20
+  - id: 22327
+    price: 30
+  - id: 22328
+    price: 25
+  - id: 1038
+    price: 100
+  - id: 1040
+    price: 100
+  - id: 1042
+    price: 100
+  - id: 1044
+    price: 100
+  - id: 1046
+    price: 100
+  - id: 1048
+    price: 100
+  - id: 1053
+    price: 75
+  - id: 1055
+    price: 75
+  - id: 1057
+    price: 75
+  - id: 24511
+    price: 75
+  - id: 24514
+    price: 50
+  - id: 24517
+    price: 40

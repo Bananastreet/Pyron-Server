@@ -1,0 +1,32 @@
+---
+
+- code: "walkchaos"
+  rewards:
+  - name: coins
+    amount: 1500000
+  - name: youtube mystery box
+    amount: 1
+  - id: 2528 # lamp
+    amount: 1
+  - id: 11937
+    amount: 100
+- code: "smoothie"
+  rewards:
+  - name: coins
+    amount: 1500000
+  - name: youtube mystery box
+    amount: 1
+  - id: 2528 # lamp
+    amount: 1
+  - id: 11937
+    amount: 100
+- code: "lano"
+  rewards:
+  - name: coins
+    amount: 1500000
+  - name: youtube mystery box
+    amount: 1
+  - id: 2528 # lamp
+    amount: 1
+  - id: 11937
+    amount: 100

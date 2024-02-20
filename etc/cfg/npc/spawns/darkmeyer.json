@@ -1,0 +1,38 @@
+[
+  {
+    "id": 9704,
+    "position": {
+      "x": 3613,
+      "y": 3369,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+  {
+    "id": 9704,
+    "position": {
+      "x": 3606,
+      "y": 3361,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+  {
+    "id": 9704,
+    "position": {
+      "x": 3624,
+      "y": 3375,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+  {
+    "id": 9704,
+    "position": {
+      "x": 3635,
+      "y": 3375,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  }
+]

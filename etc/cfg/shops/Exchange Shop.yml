@@ -1,0 +1,44 @@
+---
+id: 60
+name: "Exchange Shop"
+items:
+  - id: 23497
+    price: 75
+  - id: 3697
+    price: 1000
+  - id: 3698
+    price: 800
+  - id: 3699
+    price: 1300
+  - id: 12399
+    price: 600
+  - id: 23448
+    price: 300
+  - id: 13663
+    price: 150
+  - id: 13664
+    price: 150
+  - id: 13182
+    price: 100
+  - id: 13665
+    price: 50
+  - id: 13173
+    price: 3000
+  - id: 4565
+    price: 200
+  - id: 30011
+    price: 1000
+  - id: 6834
+    price: 350
+  - id: 26706
+    price: 30
+  - id: 11740
+    price: 60
+  - id: 25087
+    price: 70
+  - id: 25365
+    price: 50
+  - id: 22415
+    price: 60
+  - id: 10858
+    price: 1000

@@ -1,0 +1,92 @@
+---
+npc_id:
+- 9046
+- 9047
+- 9048
+constant:
+  accessibility: 1
+  items:
+    - item: 995
+      minimum: 10000
+      maximum: 15000
+common:
+  accessibility: 4
+  items:
+    - name: "rune kiteshield"
+      minimum: 2
+      maximum: 2
+    - name: "rune full helm"
+      minimum: 2
+      maximum: 2
+    - name: "rune platebody"
+      minimum: 2
+      maximum: 2
+    - name: "rune platelegs"
+      minimum: 2
+      maximum: 2
+    - name: "rune warhammer"
+      minimum: 2
+      maximum: 2
+    - name: "dragon platelegs"
+      minimum: 1
+      maximum: 2
+    - name: "dragon plateskirt"
+      minimum: 1
+      maximum: 2
+    - name: "dragon dagger"
+      minimum: 1
+      maximum: 1
+    - name: "dragon longsword"
+      minimum: 1
+      maximum: 2
+    - name: "battlestaff noted"
+      minimum: 1
+      maximum: 5
+    - name: "death rune"
+      minimum: 70
+      maximum: 100
+    - name: "blood rune"
+      minimum: 70
+      maximum: 100
+    - name: "law rune"
+      minimum: 70
+      maximum: 100
+    - name: "coal noted"
+      minimum: 150
+      maximum: 200
+    - name: "manta ray noted"
+      minimum: 30
+      maximum: 60
+    - name: "yew logs noted"
+      minimum: 50
+      maximum: 100
+    - name: "magic logs noted"
+      minimum: 10
+      maximum: 30
+    - name: "black dragonhide noted"
+      minimum: 10
+      maximum: 20
+    - name: "runite ore noted"
+      minimum: 5
+      maximum: 10
+    - name: "runite bar noted"
+      minimum: 5
+      maximum: 10
+    - name: "adamantite bar noted"
+      minimum: 5
+      maximum: 10
+rare:
+  accessibility: 100
+  items:
+    - item: 3460
+      minimum: 1
+      maximum: 1
+very_rare:
+  accessibility: 1000
+  items:
+    - item: 25365
+      minimum: 1
+      maximum: 1
+    - item: 26706
+      minimum: 1
+      maximum: 1

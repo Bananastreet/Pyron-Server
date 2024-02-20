@@ -1,0 +1,14 @@
+---
+id: 110
+name: "Stardust Shop"
+items:
+  - name: "dragon pickaxe"
+    price: 4000
+  - name: "smouldering stone"
+    price: 5000
+  - name: "dragon pickaxe upgrade kit"
+    price: 1750
+  - id: 2528
+    price: 200
+  - id: 23497
+    price: 500

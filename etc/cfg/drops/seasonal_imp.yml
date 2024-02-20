@@ -1,0 +1,41 @@
+---
+npc_id: 2549
+common:
+  accessibility: 1
+  items:
+    - item: 619
+      minimum: 24
+      maximum: 24
+uncommon:
+  accessibility: 1500
+  items:
+    - item: 22415
+      minimum: 1
+      maximum: 1
+    - item: 22416
+      minimum: 1
+      maximum: 1
+    - item: 26706
+      minimum: 1
+      maximum: 1
+    - item: 11740
+      minimum: 1
+      maximum: 1
+rare:
+  accessibility: 2000
+  items:
+    - item: 619
+      minimum: 350
+      maximum: 350
+very_rare:
+  accessibility: 25000
+  items:
+    - item: 7806
+      minimum: 1
+      maximum: 1
+    - item: 7809
+      minimum: 1
+      maximum: 1
+    - item: 7808
+      minimum: 1
+      maximum: 1

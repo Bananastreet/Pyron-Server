@@ -1,0 +1,12 @@
+---
+id: 199
+name: "AFK Shop"
+items:
+  - id: 23497
+    price: 150000
+  - id: 6739
+    price: 40000
+  - id: 11920
+    price: 60000
+  - id: 12800
+    price: 30000

@@ -1,0 +1,34 @@
+---
+id: 363
+name: "Seasonal Store"
+items:
+  - id: 7806
+    price: 120000
+  - id: 7809
+    price: 200000
+  - id: 7808
+    price: 500000
+  - id: 7810
+    price: 750000
+  - id: 10556
+    price: 100000
+  - id: 10557
+    price: 100000
+  - id: 10558
+    price: 100000
+  - id: 10559
+    price: 100000
+  - id: 8171
+    price: 75000
+  - id: 6119
+    price: 200000
+  - id: 22415
+    price: 300000
+  - id: 22416
+    price: 300000
+  - id: 30002
+    price: 20000
+  - id: 87
+    price: 500000
+  - id: 26062
+    price: 45000
