@@ -1,10 +1,6 @@
 package io.xeros.model.collisionmap;
 
-import com.google.common.base.Preconditions;
-import com.mysql.cj.x.protobuf.MysqlxDatatypes;
 import io.xeros.content.bosses.Skotizo;
-import io.xeros.content.commands.owner.Pos;
-import io.xeros.content.commands.owner.Post;
 import io.xeros.model.Direction;
 import io.xeros.model.entity.Entity;
 import io.xeros.model.entity.npc.NPC;
@@ -12,9 +8,6 @@ import io.xeros.model.entity.npc.NPCClipping;
 import io.xeros.model.entity.player.Boundary;
 import io.xeros.model.entity.player.Player;
 import io.xeros.model.entity.player.Position;
-import lombok.val;
-import org.apache.derby.impl.sql.execute.AggregatorInfo;
-import org.reflections.vfs.Vfs;
 
 public class PathChecker {
 

@@ -6,7 +6,6 @@
 *.log
 *.DS_Store
 /.gradle/
-/gradle/wrapper/gradle-wrapper.jar
 /temp/
 bin/*
 /bin/

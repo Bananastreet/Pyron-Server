@@ -1,18 +1,12 @@
 package io.xeros.model.collisionmap;
 
-import com.fasterxml.jackson.databind.cfg.ContextAttributes;
-import io.xeros.content.commands.owner.Pos;
 import io.xeros.content.skills.hunter.impling.Impling;
-import io.xeros.content.skills.hunter.impling.ImplingData;
 import io.xeros.content.skills.hunter.trap.impl.BirdSnare;
 import io.xeros.content.skills.hunter.trap.impl.BoxTrap;
 import io.xeros.model.Npcs;
 import io.xeros.model.entity.npc.NPC;
-import io.xeros.model.entity.npc.NPCClipping;
 import io.xeros.model.entity.player.Boundary;
 import io.xeros.model.entity.player.Position;
-import org.apache.commons.net.io.SocketOutputStream;
-import org.apache.poi.hssf.record.formula.functions.Ispmt;
 
 import java.util.Arrays;
 import java.util.HashMap;
