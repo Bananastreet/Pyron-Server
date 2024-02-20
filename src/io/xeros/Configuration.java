@@ -19,15 +19,15 @@ public class Configuration {
 	public static final String PACKAGE = "io.xeros";
 	public static final String DATA_FOLDER = "etc";
 
-	public static final String WEBSITE = "https://vanguardrsps.com";
+	public static final String WEBSITE = "https://discord.gg/EwAG2DjWP7";
 	public static final String FORUM_TOPIC_URL = "";
-	public static final String VOTE_LINK = "https://vanguardrsps317.everythingrs.com/";
-	public static final String HISCORES_LINK = "https://vanguardrsps.com/hiscores/";
-	public static final String STORE_LINK = "https://vanguardrsps317.everythingrs.com/services/store";
+	public static final String VOTE_LINK = "https://discord.gg/EwAG2DjWP7";
+	public static final String HISCORES_LINK = "https://discord.gg/EwAG2DjWP7";
+	public static final String STORE_LINK = "https://discord.gg/EwAG2DjWP7";
 	public static final String DISCORD_INVITE = "https://discord.gg/EwAG2DjWP7";
-	public static final String RULES_LINK = "https://discord.gg/AGW4F6XKwr";
+	public static final String RULES_LINK = "https://discord.gg/EwAG2DjWP7";
 	public static final String GUIDES_LINK = "";
-	public static final String DONATOR_BENEFITS_LINK = "https://discord.gg/Rhaw2mXTSS";
+	public static final String DONATOR_BENEFITS_LINK = "https://discord.gg/EwAG2DjWP7";
 	public static final String PRICE_GUIDE = "";
 
 	public static boolean leaderboardEnabled = true;

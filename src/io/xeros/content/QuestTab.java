@@ -333,7 +333,7 @@ public class QuestTab {
                         }
                         return true;
                     case DONATOR_BENEFITS:
-                        player.getPA().sendFrame126("https://discord.gg/Rhaw2mXTSS", 12000);
+                        player.getPA().sendFrame126(Configuration.DONATOR_BENEFITS_LINK, 12000);
                         return true;
                     case TITLES:
                         player.getTitles().display();
