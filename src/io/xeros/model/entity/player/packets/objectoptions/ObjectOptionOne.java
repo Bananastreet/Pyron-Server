@@ -46,12 +46,11 @@ import io.xeros.content.skills.smithing.CannonballSmelting;
 import io.xeros.content.skills.thieving.Thieving.Stall;
 import io.xeros.content.skills.woodcutting.Tree;
 import io.xeros.content.skills.woodcutting.Woodcutting;
-import io.xeros.content.worldevent.events.monsterhunt.MonsterHunt;
-import io.xeros.content.worldevent.events.tournaments.ViewingOrb;
 import io.xeros.content.tradingpost.Listing;
 import io.xeros.content.wilderness.SpiderWeb;
+import io.xeros.content.worldevent.events.monsterhunt.MonsterHunt;
+import io.xeros.content.worldevent.events.tournaments.ViewingOrb;
 import io.xeros.model.Items;
-import io.xeros.model.Npcs;
 import io.xeros.model.collisionmap.ObjectDef;
 import io.xeros.model.collisionmap.doors.DoorDefinition;
 import io.xeros.model.collisionmap.doors.DoorHandler;
@@ -59,7 +58,6 @@ import io.xeros.model.cycleevent.CycleEvent;
 import io.xeros.model.cycleevent.CycleEventContainer;
 import io.xeros.model.cycleevent.CycleEventHandler;
 import io.xeros.model.entity.HealthStatus;
-import io.xeros.model.entity.npc.NPC;
 import io.xeros.model.entity.npc.NPCSpawning;
 import io.xeros.model.entity.player.*;
 import io.xeros.model.entity.player.mode.group.GroupIronmanBank;
@@ -429,6 +427,7 @@ public class ObjectOptionOne {
 			case 10060:
 			case 10061:
 			case 10583:
+			case 30087:
 				c.getPA().c.itemAssistant.openUpBank();
 				break;
 			case 29333:
