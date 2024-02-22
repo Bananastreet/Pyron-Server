@@ -423,6 +423,7 @@ public class ObjectOptionOne {
 			case 10061:
 			case 10583:
 			case 30087:
+			case 10562:
 				c.getPA().c.itemAssistant.openUpBank();
 				break;
 			case 29333:
