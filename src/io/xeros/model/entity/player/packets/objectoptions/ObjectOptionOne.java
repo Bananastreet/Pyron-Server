@@ -1,7 +1,6 @@
 package io.xeros.model.entity.player.packets.objectoptions;
 
 import com.google.common.collect.Lists;
-import io.xeros.Configuration;
 import io.xeros.Server;
 import io.xeros.content.Obelisks;
 import io.xeros.content.SkillcapePerks;
@@ -278,10 +277,6 @@ public class ObjectOptionOne {
 				c.getDH().sendDialogues(380, 99);
 				break;
 			case 42967://enter nex door
-				if (!Configuration.nexEnabled) {
-					c.sendMessage("Nex is currently disabled.");
-					return;
-				}
 				c.start(new DialogueBuilder(c).setNpcId(11278).option(new DialogueOption("Start Instance", p -> {
 					if (p.getRights().hasStaffPosition() || p.getDisplayName().equalsIgnoreCase("jarnoize") || p.getDisplayName().equalsIgnoreCase("zenny")) {
 						Nex instance = new Nex(p, Boundary.Nex);

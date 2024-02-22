@@ -32,7 +32,6 @@ public class Configuration {
 
 	public static boolean leaderboardEnabled = true;
 
-	public static boolean nexEnabled = true;
 
 	public static boolean DiscordEnabled = false;
 

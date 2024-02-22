@@ -1,19 +1,13 @@
 package io.xeros.content.teleportation.inter;
 
-import java.util.Collections;
-import java.util.List;
-
 import com.google.common.collect.Lists;
-import io.xeros.Configuration;
 import io.xeros.content.achievement_diary.impl.*;
 import io.xeros.content.bosses.maledictus.MaledictusInstance;
-import io.xeros.content.bosses.obor.OborInstance;
 import io.xeros.content.bosses.tarn.TarnInstance;
-import io.xeros.content.bosses.ulfric.ulfricInstance;
 import io.xeros.model.entity.player.Position;
-import io.xeros.model.entity.player.Right;
-import io.xeros.model.entity.player.mode.ModeType;
-import io.xeros.model.items.ItemAssistant;
+
+import java.util.Collections;
+import java.util.List;
 
 public class TeleportInterfaceConstants {
 
@@ -153,11 +147,7 @@ public class TeleportInterfaceConstants {
     private static final TeleportContainer BOSSES = new TeleportContainer(Lists.newArrayList(
            // new TeleportButtonStandard("Nex", new Position(2904, 5203, 0)),
             new TeleportButton("Nex", plr -> {
-                if (Configuration.nexEnabled) {
-                    plr.getPA().startTeleport(2904, 5203, 0, "modern", false);
-                } else {
-                    plr.sendMessage("Nex is currently disabled.");
-                }
+                plr.getPA().startTeleport(2904, 5203, 0, "modern", false);
             }),
             new TeleportButtonStandard("Seren", new Position(3167, 5357, 0)),
             new TeleportButtonStandard("Avatar of Destruction", new Position(2971, 4574, 0)),
