@@ -278,12 +278,13 @@ public class ObjectOptionOne {
 				break;
 			case 42967://enter nex door
 				c.start(new DialogueBuilder(c).setNpcId(11278).option(new DialogueOption("Start Instance", p -> {
-					if (p.getRights().hasStaffPosition() || p.getDisplayName().equalsIgnoreCase("jarnoize") || p.getDisplayName().equalsIgnoreCase("zenny")) {
-						Nex instance = new Nex(p, Boundary.Nex);
-						Nex.enter(p, instance);
+					//TODO: removed staff requirement.
+					Nex instance = new Nex(p, Boundary.Nex);
+					Nex.enter(p, instance);
+					/* if (p.getRights().hasStaffPosition() || p.getDisplayName().equalsIgnoreCase("jarnoize") || p.getDisplayName().equalsIgnoreCase("zenny")) {
 					} else {
 						p.sendMessage("Currently only staff can create instances.");
-					}
+					} */
 					p.getPA().closeAllWindows();
 				}), new DialogueOption("Join friend's Instance", plr -> {
 					plr.getPA().sendEnterString("Enter friend's name", (plr1, str) -> {

@@ -1670,7 +1670,7 @@
   description: "Magical seeds in a mithril case."
   shopValue: 10000
   stackable: true
-  untradeable: true
+  untradeable: false
 - id: 300
   name: "Forever seed"
   description: "A mithril seed with unlimited use."
@@ -3331,8 +3331,8 @@
   description: "Beads carved out of a bone."
   shopValue: 1
 - id: 619
-  name: "Winter 2024 Ticket"
-  description: "Tickets for the winter 2024 seasonal event."
+  name: "Seasonal Ticket"
+  description: "Tickets for the seasonal event."
   shopValue: 5
   stackable: true
 - id: 620

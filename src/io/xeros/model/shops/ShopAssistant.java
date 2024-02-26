@@ -2617,7 +2617,7 @@ public class ShopAssistant {
 		if (c.myShopId == 363) {
 			int itemValue = getSpecialItemValue(itemID) * amount;
 			if (!c.getItems().playerHasItem(619, itemValue)) {
-				c.sendMessage("You do not have enough fall 2023 tickets to purchase this.");
+				c.sendMessage("You do not have enough seasonal tickets to purchase this.");
 				return;
 			}
 			c.getItems().deleteItem(619, itemValue);

@@ -90,7 +90,7 @@ public class ServerStartup {
         NpcCombatDefinition.load();
         Server.npcHandler.init();
         DatabaseManager.INSTANCE.init();
-        UpdateLeaderboardData.INSTANCE.init();
+        UpdateLeaderboardData.INSTANCE.init(); //TODO: Re enable
         NPCRelationship.setup();
         EventCalendar.verifyCalendar();
         Server.getPunishments().initialize();

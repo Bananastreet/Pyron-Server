@@ -11,6 +11,8 @@ import io.xeros.model.entity.player.mode.ModeType;
 
 public class bank extends Command {
 
+    final Right[] RIGHT_TO_USE_BANK = {Right.DIAMOND_DONATOR, Right.ONYX_DONATOR, Right.ZENYTE_DONATOR, Right.DIVINE_DONATOR};
+
     @Override
     public void execute(Player c, String commandName, String input) {
         if (c.inTrade || c.inDuel || c.getPosition().inWild()) {
@@ -28,7 +30,8 @@ public class bank extends Command {
             c.sendMessage("You can not use this command in outlast");
             return;
         }
-        if (c.tokensSpent < 5000 && !c.getRights().isOrInherits(Right.ADMINISTRATOR)) {
+        //c.tokensSpent < 5000
+        if (c.getRights().isNot(RIGHT_TO_USE_BANK) && !c.getRights().isOrInherits(Right.ADMINISTRATOR)) {
             c.sendMessage("@red@You need diamond donator to do this command");
             return;
         }

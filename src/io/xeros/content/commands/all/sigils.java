@@ -137,7 +137,7 @@ public class sigils extends Command {
             case 179200: //last sigil
                 sigilNames(player);
                 player.getPA().sendFrame34(26146, 0, 46005, 1);
-                player.getPA().sendFrame126("Sigil of vanguard", 46006); //Name of current sigil
+                player.getPA().sendFrame126("Sigil of Pyron", 46006); //Name of current sigil
                 player.getPA().sendFrame126("  This sigil has the combined", 46008); //Information line 1
                 player.getPA().sendFrame126("  effects of all other sigils.", 46009); //Information line 2
                 player.getPA().sendFrame126("                             ", 46010); //Information line 3

@@ -957,12 +957,19 @@ public class ClickObject implements PacketType {
                     case 2878:
                         c.objectDistance = 3;
                         break;
-                    case 29668:
+                    case 29668: //TODO: Edit this for redwood offset.
                     case 29670:
+
                         if (c.objectX == 1572)
-                            c.objectXOffset = 1;
-                        else if (c.objectY == 3494)
-                            c.objectYOffset = 1;
+                            c.objectDistance = 2;
+                            //c.objectXOffset = 2;
+                        else if (c.objectY == 3494) {
+                            c.objectDistance = 2;
+                            //c.objectYOffset = 2;
+                        }
+                        StringBuilder builder = new StringBuilder();
+                        builder.append("objectX: ").append(c.objectX).append(" objectY: ").append(c.objectY).append(" ObjectDistance: ").append(c.objectDistance);
+                        c.sendMessage(builder.toString());
                         break;
                     case 2558:
                         c.objectDistance = 0;
